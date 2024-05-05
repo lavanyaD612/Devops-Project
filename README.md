@@ -7,6 +7,7 @@
 
 
 In this project, we use AWS CloudBuild and Git Terminal to upload our files from Vs Code to AWS CodeCommit using set of git commands.
+
 Step 1:
 Create a repository in AWS Codecommit.
 
