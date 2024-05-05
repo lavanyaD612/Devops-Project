@@ -9,18 +9,21 @@
 In this project, we use AWS CloudBuild and Git Terminal to upload our files from Vs Code to AWS CodeCommit using set of git commands.
 
 Step 1:
-Create a repository in AWS Codecommit.
+Create a repository in AWS Codecommit and clone the URL of ths repository.
 
 Step 2:
-By creating an IAM user from the root user and then granting permission access to it from root account.
+Open your terminal and then clone this repository and the perform push and add operations to this repository.
 
 Step 3:
-2 branches(master, dev) will be used to pull requests from the side branch(dev) to root branc(master).
+By creating an IAM user from the root user and then granting permission access to it from root account.
 
 Step 4:
-After 2 different branches are created from the git commands in terminal, we will merge them and then pull requests are performed to commit changes made in the code into the "dev" branch and then finally to "master" branch.
+2 branches(master, dev) will be used to pull requests from the side branch(dev) to root branc(master).
 
 Step 5:
+After 2 different branches are created from the git commands in terminal, we will merge them and then pull requests are performed to commit changes made in the code into the "dev" branch and then finally to "master" branch.
+
+Step 6:
 Create an AWS S3 bucket named "code_output_devops".
 Now, store the artifacts of your project in this AWS S3 bucket for future inferences.
 
